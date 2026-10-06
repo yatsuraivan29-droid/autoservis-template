@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DS PRO AUTOSERVIS – професійний автосервіс у Дунайській Стреді. Швидка діагностика, сервіс, ремонт авто, шиномонтаж, кліматизація та 24/7 евакуатор."
+    />
+    <meta
+      name="keywords"
+      content="автосервіс Дунайська Стреда, ремонт авто Дунайська Стреда, діагностика авто Дунайська Стреда, евакуатор Дунайська Стреда, шиносервіс Дунайська Стреда, автосервіс DS"
+    />
+    <title>DS PRO AUTOSERVIS | Автосервіс Дунайська Стреда</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="DS PRO AUTOSERVIS">
+          <span class="brand-mark">DS</span>
+          <span class="brand-copy">
+            <strong>PRO</strong>
+            <small>AUTOSERVIS</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Головна навігація">
+          <a href="#services" data-i18n="nav.services">Послуги</a>
+          <a href="#why" data-i18n="nav.why">Чому ми</a>
+          <a href="#evacuator" data-i18n="nav.evacuator">Евакуатор</a>
+          <a href="#location" data-i18n="nav.location">Де нас знайти</a>
+          <a href="#contact" data-i18n="nav.contact">Контакти</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switch" aria-label="Вибір мови">
+            <button class="lang-btn active" type="button" data-lang="uk">UA</button>
+            <button class="lang-btn" type="button" data-lang="sk">SK</button>
+          </div>
+          <button class="menu-toggle" type="button" aria-label="Меню" aria-controls="main-nav" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a href="tel:+421901724904" class="header-phone">+421 901 724 904</a>
+          <a href="#contact" class="button button-primary header-button">ЗАПИСАТИСЯ</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow" data-i18n="hero.eyebrow">Дунайська Стреда • Словаччина</div>
+            <h1>DS PRO AUTOSERVIS</h1>
+            <h2 data-i18n="hero.title">Професійний автосервіс у Дунайській Стреді</h2>
+            <p data-i18n="hero.subtitle">Ремонт, діагностика та обслуговування автомобілів усіх марок.</p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="button button-primary" data-i18n="hero.ctaPrimary">ЗАПИСАТИСЯ НА СЕРВІС</a>
+              <a href="tel:+421901724904" class="button button-secondary" data-i18n="hero.ctaSecondary">ПОДЗВОНИТИ</a>
+            </div>
+
+            <div class="hero-phone-row">
+              <span data-i18n="hero.callLabel">Телефонуйте:</span>
+              <a href="tel:+421901724904">+421 901 724 904</a>
+            </div>
+
+            <div class="trust-line" data-i18n="hero.trust">Усі марки авто • Професійний підхід • Чесні ціни • Надійність</div>
+
+            <div class="hero-badges">
+              <span class="badge badge-blue" data-i18n="hero.badge">24/7 ЕВАКУАТОР</span>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Переваги сервісу">
+            <div class="tech-card">
+              <span class="label" data-i18n="hero.card1Label">Швидка допомога</span>
+              <strong>24/7</strong>
+              <small data-i18n="hero.card1Text">Евакуація та доставка авто</small>
+            </div>
+            <div class="tech-card accent">
+              <span class="label" data-i18n="hero.card2Label">Діагностика</span>
+              <strong>PC</strong>
+              <small data-i18n="hero.card2Text">Сучасні рішення для авто</small>
+            </div>
+            <div class="tech-card slim">
+              <span class="label" data-i18n="hero.card3Label">Працюємо з</span>
+              <strong data-i18n="hero.card3Text">Усіма марками</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-services" aria-label="Швидкі послуги">
+        <div class="container">
+          <div class="service-strip">
+            <a href="#services" class="service-pill"><span>🔧</span><span class="service-label" data-i18n="quick.service1">Сервіс та ремонт</span></a>
+            <a href="#services" class="service-pill"><span>🚗</span><span class="service-label" data-i18n="quick.service2">Діагностика</span></a>
+            <a href="#services" class="service-pill"><span>🛞</span><span class="service-label" data-i18n="quick.service3">Шиномонтаж</span></a>
+            <a href="#services" class="service-pill"><span>❄️</span><span class="service-label" data-i18n="quick.service4">Кліматизація</span></a>
+            <a href="#evacuator" class="service-pill"><span>🚨</span><span class="service-label" data-i18n="quick.service5">Евакуатор 24/7</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why-section" id="why">
+        <div class="container">
+          <div class="section-heading">
+            <p class="kicker">Чому DS PRO?</p>
+            <h2>ЧОМУ DS PRO?</h2>
+          </div>
+
+          <div class="benefits-grid">
+            <article class="benefit-card">
+              <div class="icon">⚙️</div>
+              <h3>Професійний підхід</h3>
+              <p>Досвідчений автосервіс із акцентом на точність, якісну діагностику та безпечний ремонт автомобіля.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">💬</div>
+              <h3>Чесні ціни</h3>
+              <p>Прозорий підхід без непотрібних витрат. Ми пояснимо, що саме потрібно і чому.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">🛡️</div>
+              <h3>Надійність</h3>
+              <p>Якісна робота та уважне ставлення до кожного авто, щоб ви могли спокійно їздити.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">⏱️</div>
+              <h3>Швидка допомога</h3>
+              <p>Швидка реакція на проблеми з авто — від діагностики до евакуації та ремонту.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">🚘</div>
+              <h3>Усі марки авто</h3>
+              <p>Сервіс і ремонт для широкого спектру моделей і транспортних засобів будь-якої марки.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="kicker">Наші послуги</p>
+            <h2>ПОСЛУГИ АВТОСЕРВІСУ</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🔧</div>
+                <h3>Двигун</h3>
+              </div>
+              <p>Комплексна діагностика та ремонт двигуна для будь-яких типів транспортних засобів.</p>
+              <ul>
+                <li>Діагностика</li>
+                <li>Ремонт двигуна</li>
+                <li>Заміна масла</li>
+                <li>Ремені та ланцюги ГРМ</li>
+                <li>Чип-тюнінг</li>
+                <li>Усунення несправностей</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🛑</div>
+                <h3>Гальма</h3>
+              </div>
+              <p>Безпека та надійність гальмівної системи — основа спокійної їзди.</p>
+              <ul>
+                <li>Діагностика</li>
+                <li>Заміна дисків і колодок</li>
+                <li>Ремонт гальмівної системи</li>
+                <li>Обслуговування ABS</li>
+                <li>Прокачка гальм</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🛠️</div>
+                <h3>Підвіска</h3>
+              </div>
+              <p>Діагностика та ремонт ходової частини для стабільності і комфорту.</p>
+              <ul>
+                <li>Діагностика підвіски</li>
+                <li>Заміна амортизаторів</li>
+                <li>Ремонт важелів і сайлентблоків</li>
+                <li>Рульове керування</li>
+                <li>Регулювання розвалу-сходження</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🏁</div>
+                <h3>Шини</h3>
+              </div>
+              <p>Монтаж, балансування та вибір комплектів шин під ваш стиль їзди.</p>
+              <ul>
+                <li>Монтаж і балансування</li>
+                <li>Сезонна заміна</li>
+                <li>Ремонт шин</li>
+                <li>Центрування</li>
+                <li>Продаж шин</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">❄️</div>
+                <h3>Кліматизація</h3>
+              </div>
+              <p>Діагностика та обслуговування системи кондиціонування для комфорту в дорозі.</p>
+              <ul>
+                <li>Діагностика</li>
+                <li>Заправка фреоном</li>
+                <li>Пошук витоків</li>
+                <li>Чистка системи</li>
+                <li>Дезінфекція</li>
+                <li>Ремонт кондиціонерів</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🧠</div>
+                <h3>Діагностика</h3>
+              </div>
+              <p>Сучасна електронна діагностика авто для швидкого визначення несправності.</p>
+              <ul>
+                <li>Комп'ютерна діагностика</li>
+                <li>Читання та видалення помилок</li>
+                <li>DPF / EGR</li>
+                <li>AdBlue</li>
+                <li>Підготовка до STK / EK</li>
+                <li>Автоелектроніка</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">💨</div>
+                <h3>Пневматична підвіска</h3>
+              </div>
+              <p>Ремонт і сервіс систем пневматичної підвіски для стабільної роботи.</p>
+              <ul>
+                <li>Діагностика</li>
+                <li>Ремонт комплектуючих</li>
+                <li>Ущільнення та тиск</li>
+                <li>Калібрування</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🩹</div>
+                <h3>Ремонт після дрібної аварії</h3>
+              </div>
+              <p>Оновлення автомобіля після невеликих пошкоджень із гарантією якості.</p>
+              <ul>
+                <li>Оцінка пошкоджень</li>
+                <li>Ремонт кузова</li>
+                <li>Відновлення деталей</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🧪</div>
+                <h3>Заміна будь-яких рідин</h3>
+              </div>
+              <p>Регулярна заміна масел, антифризу та інших технічних рідин для бездоганної роботи.</p>
+              <ul>
+                <li>Заміна масла</li>
+                <li>Охолоджувальна рідина</li>
+                <li>Гальмівна рідина</li>
+                <li>Гідравлічна рідина</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🔎</div>
+                <h3>Огляд перед покупкою</h3>
+              </div>
+              <p>Повна перевірка авто перед покупкою, щоб уникнути непередбачуваних проблем.</p>
+              <ul>
+                <li>Підсумкова перевірка</li>
+                <li>Діагностика</li>
+                <li>Оцінка технічного стану</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+
+            <article class="service-card">
+              <div class="card-header">
+                <div class="card-icon">🚙</div>
+                <h3>Сервісне обслуговування придбаного авто</h3>
+              </div>
+              <p>Технічне обслуговування, профілактичні перевірки та налаштування після покупки.</p>
+              <ul>
+                <li>Обслуговування</li>
+                <li>Перевірка технічного стану</li>
+                <li>Попереднє налаштування</li>
+              </ul>
+              <a href="#contact" class="text-link">Дізнатися більше</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section evacuator-section" id="evacuator">
+        <div class="container evacuator-inner">
+          <div class="evacuator-copy">
+            <p class="kicker">Швидка допомога</p>
+            <h2>ЕВАКУАТОР 24/7</h2>
+            <h3>Цілодобова допомога на дорозі</h3>
+            <p>Поломка, аварія або транспортний засіб не заводиться? Ми допоможемо доставити авто до сервісу.</p>
+            <div class="cta-block">
+              <a href="tel:+421901724904" class="button button-primary">ВИКЛИКАТИ ЕВАКУАТОР</a>
+              <div class="phone-box">
+                <span>Телефонуйте:</span>
+                <a href="tel:+421901724904">+421 901 724 904</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="evacuator-visual" aria-hidden="true">
+            <div class="tow-card">
+              <div class="tow-badge">24/7</div>
+              <div class="tow-plate">
+                <span>DS PRO</span>
+                <small>ЕВАКУАТОР</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section brands-section">
+        <div class="container">
+          <div class="section-heading center narrow">
+            <p class="kicker">Авто</p>
+            <h2>ОБСЛУГОВУЄМО ВСІ МАРКИ АВТО</h2>
+          </div>
+
+          <div class="brand-row" aria-label="Марки автомобілів">
+            <span>BMW</span>
+            <span>Mercedes-Benz</span>
+            <span>Audi</span>
+            <span>Volkswagen</span>
+            <span>Škoda</span>
+            <span>SEAT</span>
+            <span>Ford</span>
+            <span>Opel</span>
+            <span>Renault</span>
+            <span>Peugeot</span>
+            <span>Citroën</span>
+            <span>Hyundai</span>
+            <span>KIA</span>
+            <span>Toyota</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" id="process">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="kicker">Як працюємо</p>
+            <h2>ЯК ЦЕ ПРАЦЮЄ</h2>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-number">01</span>
+              <h3>Зв'яжіться з нами</h3>
+              <p>Передзвоніть або напишіть нам. Ми швидко зрозуміємо, що вам потрібно.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">02</span>
+              <h3>Діагностика</h3>
+              <p>Перевіряємо авто і визначаємо причину несправності.</p>
+            </article>
+            <article class="step-card">
+              <span class="step-number">03</span>
+              <h3>Ремонт</h3>
+              <p>Узгоджуємо обсяг робіт і виконуємо ремонт максимально якісно.</p>
+            </article>
+          </div>
+
+          <div class="process-cta">
+            <a href="#contact" class="button button-primary">ЗАПИСАТИСЯ НА СЕРВІС</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section inspection-section" id="inspection">
+        <div class="container inspection-inner">
+          <div class="inspection-copy">
+            <p class="kicker">Купуєте вживане авто?</p>
+            <h2>КУПУЄТЕ ВЖИВАНЕ АВТО?</h2>
+            <h3>Перевірте автомобіль перед покупкою</h3>
+            <p>DS PRO допоможе перевірити авто перед покупкою та виявити можливі технічні проблеми ще до підписання договору.</p>
+            <a href="#contact" class="button button-primary">ЗАМОВИТИ ОГЛЯД</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="kicker">Наша майстерня</p>
+            <h2>WORKSHOP & GALLERY</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item large">
+              <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?auto=format&fit=crop&w=1200&q=80" alt="Механік під час ремонту авто" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Авто на підйомнику" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=80" alt="Діагностика авто" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=900&q=80" alt="Гальма та сервіс" />
+            </figure>
+            <figure class="gallery-item">
+              <img src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=900&q=80" alt="Підвіска та ходова частина" />
+            </figure>
+            <figure class="gallery-item wide">
+              <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1400&q=80" alt="Простір автосервісу" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section location-section" id="location">
+        <div class="container location-grid">
+          <div class="location-info">
+            <p class="kicker">Де нас знайти</p>
+            <h2>ДЕ НАС ЗНАЙТИ</h2>
+            <p>Vajanského 5401/15</p>
+            <p>929 01 Dunajská Streda</p>
+            <p>Slovakia</p>
+            <p class="muted">«біля м'ясного магазину «Орбан»»</p>
+            <p class="muted">Між меблевим центром «Orbán» та рестораном «Pipinko»</p>
+            <a href="https://maps.google.com/?q=Vajanského+5401%2F15,+929+01+Dunajská+Streda,+Slovakia" class="button button-primary" target="_blank" rel="noreferrer">ПОКАЗАТИ МАРШРУТ</a>
+          </div>
+
+          <div class="map-card" aria-label="Карта місцезнаходження">
+            <iframe
+              title="DS PRO AUTOSERVIS на карті"
+              src="https://www.google.com/maps?q=Vajanského+5401%2F15,+929+01+Dunajská+Streda,+Slovakia&z=15&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section hours-contact-section" id="contact">
+        <div class="container hours-contact-grid">
+          <div class="hours-card">
+            <p class="kicker">Графік роботи</p>
+            <h2>ГРАФІК РОБОТИ</h2>
+            <div class="hours-row">
+              <span>ПОНЕДІЛОК — П'ЯТНИЦЯ</span>
+              <strong>08:00 — 17:00</strong>
+            </div>
+            <div class="hours-row">
+              <span>СУБОТА</span>
+              <strong>08:00 — 12:00</strong>
+            </div>
+            <div class="hours-row">
+              <span>НЕДІЛЯ</span>
+              <strong>ЗАКРИТО</strong>
+            </div>
+            <p class="note">Важливо: звичайний графік роботи сервісу відрізняється від 24/7 евакуації.</p>
+          </div>
+
+          <div class="contact-card">
+            <p class="kicker">Контакти</p>
+            <h2>ПОТРІБЕН РЕМОНТ АБО ДІАГНОСТИКА?</h2>
+            <p>Зателефонуйте нам або напишіть у зручному месенджері.</p>
+
+            <div class="contact-actions">
+              <a href="tel:+421901724904" class="button button-primary">ПОДЗВОНИТИ</a>
+              <a href="https://wa.me/421901724904?text=Доброго%20дня%2C%20мені%20потрібен%20сервіс%20або%20діагностика." class="button button-secondary" target="_blank" rel="noreferrer">НАПИСАТИ В WHATSAPP</a>
+            </div>
+
+            <div class="contact-list">
+              <a href="tel:+421901724904">+421 901 724 904</a>
+              <a href="tel:+421918304098">+421 918 304 098</a>
+              <span>WhatsApp • Telegram • Viber</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">DS</span>
+            <span class="brand-copy">
+              <strong>PRO</strong>
+              <small>AUTOSERVIS</small>
+            </span>
+          </a>
+          <p class="footer-text">Професійний автосервіс у Дунайській Стреді</p>
+        </div>
+
+        <div>
+          <h3>Адреса</h3>
+          <p>Vajanského 5401/15</p>
+          <p>929 01 Dunajská Streda</p>
+        </div>
+
+        <div>
+          <h3>Контакти</h3>
+          <p><a href="tel:+421901724904">+421 901 724 904</a></p>
+          <p><a href="tel:+421918304098">+421 918 304 098</a></p>
+        </div>
+
+        <div>
+          <h3>Графік</h3>
+          <p>Пн–Пт 08:00–17:00</p>
+          <p>Сб 08:00–12:00</p>
+        </div>
+
+        <div>
+          <h3>Посилання</h3>
+          <ul class="footer-links">
+            <li><a href="#services">Послуги</a></li>
+            <li><a href="#why">Про нас</a></li>
+            <li><a href="#evacuator">Евакуатор 24/7</a></li>
+            <li><a href="#contact">Контакти</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
